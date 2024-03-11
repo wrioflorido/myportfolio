@@ -33,16 +33,16 @@ const Portfolio = () => {
       <nav className="bg-gray-950 fixed top-0 left-0 w-full z-10">
         <div className="container mx-auto px-4 py-2">
           <ul className="flex justify-between items-center">
-            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-4 md:pl-8">
+            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900  pl-4 md:pl-8">
               <button onClick={() => scrollToSection(introSectionRef)}>HOME</button>
             </li>
-            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-4 md:pl-8">
+            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900  pl-4 md:pl-8">
               <button onClick={() => scrollToSection(aboutSectionRef)}>ABOUT ME</button>
             </li>
-            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-4 md:pl-8">
+            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900  pl-4 md:pl-8">
               <button onClick={() => scrollToSection(portfolioSectionRef)}>PORTFOLIO</button>
             </li>
-            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-4 md:pl-8">
+            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900  pl-4 md:pl-8">
               <a href="https://drive.google.com/file/d/19pqNb9LgQtWlnHsfRgAquKERR4OmBxZK/view?usp=drive_link" target="_blank">
                 RESUME
               </a>
@@ -52,7 +52,7 @@ const Portfolio = () => {
       </nav>
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between py-16 px-8 md:px-48" ref={introSectionRef}>
         {/* Introduction section */}
-        <div className="text-center mb-8 md:mb-0">
+        <div className="text-center mb-8 md:mb-0 mt-56">
           <h1 className="font-bold text-[4vw] md:text-[100px] text-gray-200 animate-bounce">WENDELL S. </h1>
           <h1 className="font-bold text-[4vw] md:text-[100px] text-gray-200 animate-bounce">RIOFLORIDO</h1>
           <div className="container bg-golden w-[100%]">
@@ -61,15 +61,15 @@ const Portfolio = () => {
             <p className="text-[16px] md:text-lg text-gray-200 text-center animate-pulse">Web Developer</p>
           </div>
         </div>
-        <div className="bg-white shadow-md rounded-lg w-full md:w-[400px]">
+        <div className="bg-white shadow-md rounded-lg w-full md:w-[400px] mt-56">
           <Image src="/assets/2.JPG" alt="Project 1" width={400} height={100} className="object-cover" />
         </div>
       </div>
       <hr className="border-t-4 border-yellow-100" />
       <div className="container mx-auto flex flex-col md:flex-row px-4 py-16 md:py-64" ref={aboutSectionRef}>
         <div className="md:px-8 max-w-[70%]">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 py-4 text-left max-w-[80%]">ABOUT ME</h1>
-          <p className="text-[16px] md:text-[18px] max-w-[80%] bg-golden px-4 py-4 text-justify">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 py-4 text-left ">ABOUT ME</h1>
+          <p className="text-[16px] md:text-[18px] max-w-[100%] pb-20 bg-golden px-4 py-4 text-justify">
             A versatile professional recognized for my ability to adapt quickly and work smartly. I excel in fast-paced environments where I can leverage my adaptability to navigate change with ease. My approach to work is rooted in efficiency and effectiveness—I believe in finding the most strategic and efficient way to achieve goals while maintaining high standards of quality. I bring a positive attitude and collaborative spirit to every team I work with. I enjoy brainstorming and problem-solving alongside colleagues, valuing diverse perspectives and fostering an inclusive environment where everyone feels empowered to contribute their best ideas. Driven by a passion for making a difference, I'm always eager to take on new challenges and explore innovative solutions. Whether it's optimizing processgit push -u origin main, tackling complex projects, or supporting my team members, I'm committed to delivering exceptional results and creating value in everything I do. Let's connect and explore how we can work together to achieve our goals and make a positive impact!
           </p>
         </div>
