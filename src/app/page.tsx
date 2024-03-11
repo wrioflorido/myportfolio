@@ -32,22 +32,21 @@ const Portfolio = () => {
       </Head>
       <nav className="bg-gray-950 fixed top-0 left-0 w-full z-10">
         <div className="container mx-auto px-4 py-2">
-          <ul className="flex justify-between">
-            <li className="text-white text-[30px] py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-28">
+          <ul className="flex justify-between items-center">
+            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-4 md:pl-8">
               <button onClick={() => scrollToSection(introSectionRef)}>HOME</button>
             </li>
-            <li className="text-white text-[30px] py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-28">
+            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-4 md:pl-8">
               <button onClick={() => scrollToSection(aboutSectionRef)}>ABOUT ME</button>
             </li>
-            <li className="text-white text-[30px] py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-28">
+            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-4 md:pl-8">
               <button onClick={() => scrollToSection(portfolioSectionRef)}>PORTFOLIO</button>
             </li>
-            <li className="text-white text-[30px] py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-28">
+            <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900 h-full border-l border-yellow-100 pl-4 md:pl-8">
               <a href="https://drive.google.com/file/d/19pqNb9LgQtWlnHsfRgAquKERR4OmBxZK/view?usp=drive_link" target="_blank">
                 RESUME
               </a>
             </li>
-            <li className="h-full border-l border-yellow-100 py-[27px]">&nbsp;&nbsp; </li>
           </ul>
         </div>
       </nav>
@@ -127,37 +126,38 @@ const Portfolio = () => {
         </div>
       </div>
       <footer className="bg-gray-950 fixed bottom-0 left-0 w-full z-10 py-4">
-        <div className="container mx-auto px-4 flex justify-center">
+        <div className="container mx-auto px-4 flex flex-wrap justify-center">
           <ul className="flex space-x-4">
             <li className="flex">
-              <MailOutlined style={{ fontSize: '40px', color: 'red' }} />
-              <p className="pl-4 pt-2">wenrioflorido09@gmail.com</p>
+              <MailOutlined style={{ fontSize: '24px', color: 'red' }} />
+              <p className="pl-2 pt-1 text-white">wenrioflorido09@gmail.com</p>
             </li>
             <li className="flex">
-              <PhoneOutlined style={{ fontSize: '40px', color: 'green' }} />
-              <p className="pl-4 pt-2">+639613390759</p>
+              <PhoneOutlined style={{ fontSize: '24px', color: 'green' }} />
+              <p className="pl-2 pt-1 text-white">+639613390759</p>
             </li>
             <li className="flex">
               <a href="https://www.facebook.com/wendell.rioflorido/" target="_blank">
-                <FacebookOutlined style={{ fontSize: '40px', color: '#4267B2' }} />
+                <FacebookOutlined style={{ fontSize: '24px', color: '#4267B2' }} />
               </a>
-              <p className="pl-4 pt-2">Wendell Rioflorido</p>
+              <p className="pl-2 pt-1 text-white">Wendell Rioflorido</p>
             </li>
             <li className="flex">
               <a href="https://www.linkedin.com/in/wendell-rioflorido-6392b3274/" target="_blank">
-                <LinkedinOutlined style={{ fontSize: '40px', color: 'blue' }} />
+                <LinkedinOutlined style={{ fontSize: '24px', color: 'blue' }} />
               </a>
-              <p className="pl-4 pt-2">Wendell Rioflorido</p>
+              <p className="pl-2 pt-1 text-white">Wendell Rioflorido</p>
             </li>
             <li className="flex">
               <a href="https://www.linkedin.com/in/wendell-rioflorido-6392b3274/" target="_blank">
-                <GithubOutlined style={{ fontSize: '40px', color: 'black' }} />
+                <GithubOutlined style={{ fontSize: '24px', color: 'black' }} />
               </a>
-              <p className="pl-4 pt-2">wrioflorido</p>
+              <p className="pl-2 pt-1 text-white">wrioflorido</p>
             </li>
           </ul>
         </div>
       </footer>
+
     </div>
   );
 };
