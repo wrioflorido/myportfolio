@@ -65,7 +65,7 @@ const Portfolio = () => {
 
 I bring a positive attitude and collaborative spirit to every team I work with. I enjoy brainstorming and problem-solving alongside colleagues, valuing diverse perspectives and fostering an inclusive environment where everyone feels empowered to contribute their best ideas.
 
-Driven by a passion for making a difference, I&apos;m always eager to take on new challenges and explore innovative solutions. Whether it&apos;s optimizing processes, tackling complex projects, or supporting my team members, I&apos;m committed to delivering exceptional results and creating value in everything I do.
+Driven by a passion for making a difference, I&apos;m always eager to take on new challenges and explore innovative solutions. Whether it&apos;s optimizing processgit push -u origin main, tackling complex projects, or supporting my team members, I&apos;m committed to delivering exceptional results and creating value in everything I do.
 
 Let&apos;s connect and explore how we can work together to achieve our goals and make a positive impact!
 </p>
