@@ -30,8 +30,8 @@ const Portfolio = () => {
         <title>My Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className="bg-gray-950 fixed top-0 left-0 w-full z-10">
-        <div className="container mx-auto px-4 py-2">
+      <nav className="bg-gray-950 fixed top-0 left-0 w-full z-10 overflow-x-auto">
+        <div className="container mx-auto px-4 py-2 whitespace-nowrap">
           <ul className="flex justify-between items-center">
             <li className="text-white text-lg md:text-2xl py-4 hover:text-green-900  pl-4 md:pl-8">
               <button onClick={() => scrollToSection(introSectionRef)}>HOME</button>
@@ -50,9 +50,9 @@ const Portfolio = () => {
           </ul>
         </div>
       </nav>
-      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between py-16 px-8 md:px-48" ref={introSectionRef}>
+      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between py-16 px-8 md:px-48 " ref={introSectionRef}>
         {/* Introduction section */}
-        <div className="text-center mb-8 md:mb-0 mt-56">
+        <div className="text-center mb-8 md:mb-0 pt-56">
           <h1 className="font-bold text-[4vw] md:text-[100px] text-gray-200 animate-bounce">WENDELL S. </h1>
           <h1 className="font-bold text-[4vw] md:text-[100px] text-gray-200 animate-bounce">RIOFLORIDO</h1>
           <div className="container bg-golden w-[100%]">
@@ -125,8 +125,8 @@ const Portfolio = () => {
 
         </div>
       </div>
-      <footer className="bg-gray-950 fixed bottom-0 left-0 w-full z-10 py-4">
-        <div className="container mx-auto px-4 flex flex-wrap justify-center">
+      <footer className="bg-gray-950 fixed bottom-0 left-0 w-full z-10 py-4 overflow-x-auto">
+        <div className="container mx-auto px-4 flex flex-wrap justify-center whitespace-nowrap">
           <ul className="flex space-x-4">
             <li className="flex">
               <MailOutlined style={{ fontSize: '24px', color: 'red' }} />
@@ -157,7 +157,6 @@ const Portfolio = () => {
           </ul>
         </div>
       </footer>
-
     </div>
   );
 };
