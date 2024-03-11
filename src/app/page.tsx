@@ -109,7 +109,7 @@ Let&apos;s connect and explore how we can work together to achieve our goals and
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Portfolio items */}
           <div className="bg-cranberry shadow-md rounded-lg overflow-hidden ">
-            <Image src="/assets/Screenshot 2024-03-09 014316.png" alt="Project 1" width={500} height={300} className="object-cover hover:animate-ping  " />
+            <a href="https://todolistapp-nextjs.netlify.app/"><Image src="/assets/Screenshot 2024-03-09 014316.png" alt="Project 1" width={500} height={300} className="object-cover hover:animate-ping  " /></a>
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">TodolistApp</h3>
               <p className="text-gray-200 bg">ReactJS NextJS TailwindCSS Supabase</p>
